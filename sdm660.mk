@@ -377,6 +377,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.xiaomi_sdm660.qti
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
