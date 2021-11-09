@@ -1,0 +1,2 @@
+# zygote
+allow zygote unlabeled:file { write };
